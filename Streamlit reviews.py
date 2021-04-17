@@ -23,10 +23,7 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import wordnet
 import streamlit.components.v1 as stc
-nltk.download('stopwords')
-nltk.download('vader_lexicon')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
+
 
 st.title("Question 1 Part 2")
 data_file = st.file_uploader("Upload CSV",type=["csv"])
